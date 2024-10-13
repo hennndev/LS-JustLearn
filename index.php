@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustLearn | Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+    <?php include "components/header.php" ?>
+
+    <main class="container">
+        <section id="home" class="hero-section flex-between">
+            <section class="text-container">
+                <h1>Learn something new and become great a learner</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium perferendis at, distinctio quaerat, animi reprehenderit ipsam quasi quae debitis incidunt consequuntur quas tempora officiis inventore commodi doloribus dolorem. Cupiditate.</p>
+                <button class="btn btn-primary">Explore Course</button>
+            </section>
+            <section class="img-container">
+                <img src="./assets/learning.png" alt="hero">
+            </section>
+        </section>
+        
+        <section class="program">
+            <section class="program-header">
+                <h1>Program</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa id alias aliquid dolores esse nesciunt earum fugit natus porro iure aliquam enim quis quisquam, minima in dignissimos rem illo?</p>
+            </section>
+            <section class="program-cards">
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://timkoding.com/wp-content/uploads/2023/11/belajar-javascript.png" loading="lazy" alt="javascript-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>Javascript Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://media.licdn.com/dms/image/D4E12AQEYqTrWsLnG4A/article-cover_image-shrink_720_1280/0/1702616887440?e=2147483647&v=beta&t=fiv7mCqZUx5JaiuZrTb9ID1sbO7GrWWSU5EKXopH2mE" loading="lazy" alt="php-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>PHP Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://www.pragimtech.com/wp-content/uploads/2021/03/ReactJS.jpg" loading="lazy" alt="react-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>ReactJS Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://i0.wp.com/assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5d8dd7a40ef690769d10a7dd_Linux-System-Administrator.jpg?ssl=1" loading="lazy" alt="sysadm-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>System Administrator Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://executivegov-media.s3.amazonaws.com/2024/05/08/58/6f/64/88/6f/0f/bf/a4/Concept-of-cybersecurity-and-biometric-scanning_1200x628-202456.webp" loading="lazy" alt="cybersec-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>Cybersecurity Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+                <article class="program-card">
+                    <section class="img-container">
+                        <img src="https://arek.its.ac.id/hmsi/wp-content/uploads/2024/01/pasted-image-0-5.png" loading="lazy" alt="uiux-program">
+                    </section>
+
+                    <section class="text-container">
+                        <h3>UIUX Program</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio placeat aperiam, quidem temporibus ad.</p>
+                        <div class="flexx price-container">
+                            <p class="price">Rp. 350.000</p>
+                            <p class="price-discount">Rp. 100.000</p>
+                        </div>
+                        <button class="btn btn-primary">Start Learn</button>
+                    </section>
+                </article>
+            </section>
+        </section>
+
+        <section class="youtube-frame">
+            <iframe
+                src="https://www.youtube.com/embed/fY3Ggo31FnE?si=aUTw0k1bghH3DRLA">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="container sub-footer">
+            <section>
+                <h1>JustLearn</h1>
+                <section class="footer-subscribe">
+                    <p>Subscribe your email to get latest information from JustLearn</p>
+                    <input type="text" placeholder="Place your email">
+                    <button class="btn btn-secondary">Send Mail</button>
+    
+                    <section class="footer-icons flexx">
+                        <i class="devicon-facebook-plain footer-icon"></i>
+                        <i class="devicon-twitter-original footer-icon"></i>
+                        <i class="devicon-linkedin-plain footer-icon"></i>
+                    </section>
+                </section>
+            </section>
+    
+            <section class="footer-services">
+                <p class="footer-services-title">Company</p>
+                <section class="footer-options">
+                    <a href="about.php">About Us</a>
+                    <a href="#">Partnership</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Mentors</a>
+                    <a href="#">Blogs</a>
+                </section>
+            </section>
+
+            <section class="footer-services">
+                <p class="footer-services-title">Explore</p>
+                <section class="footer-options">
+                    <a href="#home">Home</a>
+                    <a href="about.php">About Us</a>
+                    <a href="programs.php">Programs</a>
+                    <a href="articles.php">Articles</a>
+                    <a href="login.php">Login</a>
+                    <a href="register.php">Register</a>
+                </section>
+            </section>
+
+            <section class="footer-services">
+                <p class="footer-services-title">Support</p>
+                <section class="footer-options">
+                    <a href="contactus.php">Contact Us</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="programs.php/#schedules">Schedules</a>
+                    <a href="programs.php/#programs">Pricing</a>
+                </section>
+            </section>
+            <section class="footer-services">
+                <p class="footer-services-title">Programs</p>
+                <section class="footer-options">
+                    <a href="#">Javascript</a>
+                    <a href="#">PHP</a>
+                    <a href="#">ReactJS</a>
+                    <a href="#">NextJS</a>
+                    <a href="#">Javascript</a>
+                </section>
+            </section>
+        </section>
+
+        <section class="container flex-between footer-copyright">
+            <p>Copyright &copy; 2024 All Right Reserved. Made with ❤️ by Hennndev</p>
+
+        </section>
+    </footer> 
+
+
+    <style>
+        .hero-section {
+            column-gap: 30px;
+            padding-top: 150px;
+        }
+        .hero-section .text-container {
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            font-weight: bolder;
+            color: var(--secondary);
+        }
+        .hero-section p {
+            color: gray;
+        }
+        .hero-section .text-container .btn {
+            width: max-content;
+        }
+        .hero-section .img-container {
+            width: 450px;
+            height: 450px;
+        }
+        .hero-section .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+
+        .swiper {
+            width: 600px;
+            height: 300px;
+        }
+
+
+        .youtube-frame {
+            padding-top: 150px;
+        }
+        .youtube-frame iframe {
+            width: 100%;
+            height: 650px;
+        }
+
+        @media (max-width: 500px) {
+            .hero-section h1 {
+                font-size: 25px;
+            }
+            .hero-section .text-container {
+                width: auto;
+            }
+            .hero-section .img-container {
+                width: 300px;
+                height: 300px;
+            }
+            .youtube-frame iframe {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width: 768px) {
+            .hero-section {
+                flex-direction: column-reverse;
+                row-gap: 50px;
+            }
+            .hero-section .text-container {
+                width: auto;
+            }
+            .hero-section .img-container {
+                width: 350px;
+                height: 350px;
+            }
+            .youtube-frame iframe {
+                width: 100%;
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column-reverse;
+            }
+            .hero-section h1 {
+                font-size: 35px;
+            }
+            .hero-section .text-container {
+                text-align: center;
+            }
+            .hero-section .text-container .btn {
+                align-self: center;
+            }
+        }
+        @media (min-width: 768px ) and (max-width: 1000px) {
+            .hero-section h1 {
+                font-size: 40px;
+            }
+            .hero-section p {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script src="scripts/script-main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
